@@ -1,0 +1,28 @@
+.cart .image{
+    height: 300px;
+    width: 300px;
+
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+    background-color: grey;
+}
+.inc-dec button{
+    height: 30px;
+    width: 30px;
+    font-size: larger;
+    
+}
+.inc-dec{
+    display: flex;
+}

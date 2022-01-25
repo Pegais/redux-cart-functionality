@@ -1,0 +1,22 @@
+.body{
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    overflow:scroll;
+    outline:1px solid black;
+
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
